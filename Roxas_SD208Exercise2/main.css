@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+.background{
+    background-color: skyblue;
+    background-image: linear-gradient(90deg,skyblue, pink);
+}
+h1{
+    display: inline-block;
+    font-family: 'Verdana';
+    font-size: 200px;
+    color: red;
+    text-transform: none;
+    text-shadow: 2px 2px black;
+    margin: 0 20px;
+    padding: 50px 100px;
+    opacity: 0.0;
+    animation: fadeIn infinite 1s;
+    -webkit-animation: fadeIn infinite 1s;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+h2{
+    text-align: center;
+}
+#login_icon{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    display: block;
+}
+#loginform{
+    margin: 90px 50px;
+    border-style: double;
+    padding: 15px;
+    background-color:  #f7c5cc;
+}
+#input{
+    margin-top: 10px;
+}
+.col{
+    width: 50%;
+}
+
+#register_icon{
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: block;
+}
+#registerform{
+    margin-top: 10px;
+    border-style: double;
+    padding: 15px;
+    background-color:  #f7c5cc;
+}
+
+
+/* for main html */
+#main{
+    background-color: lightgreen;
+}
+
+h1.main {
+    color: lightseagreen;
+    text-shadow: 2px 2px red;
+}
+
+#before, #after{
+    width:"300px";
+    height:"200px";
+    position: absolute;
+    margin-top: 500px;
+}
